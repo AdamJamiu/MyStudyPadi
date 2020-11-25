@@ -43,4 +43,6 @@ Step 3: To the right of the branch menu, you would see a button `‘New Pull Req
 
 Step 4:  Scroll down the page, click on the green button titled `‘Create pull request’`. Type in a title and a description for your pull request. Once you are done inputting your title and description, click on create pull request. This should create a pull request for you, all you have to do is wait to be merged.
 
+### Note: When creating branch
+You should name the branch you are creating the same name of the page you are creating
 
