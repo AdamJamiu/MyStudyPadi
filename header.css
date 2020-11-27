@@ -34,7 +34,7 @@ li {
 nav {
   display: flex;
   width: 100%;
-  height: 100px;
+  height: 90px;
   background: #fff;
   justify-content: space-between;
   align-items: center;
@@ -49,6 +49,7 @@ nav {
 
 .links{
   /* display: flex; */
+  margin: 3px 0 0 0;
   list-style: none;
   align-items: center;
 }
