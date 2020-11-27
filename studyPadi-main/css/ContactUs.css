@@ -127,3 +127,31 @@ main{
     margin-left: 15px;
 }
 
+/* Media queries */
+@media (min-width:1001px){
+    
+}
+@media (max-width: 1000px) {
+   
+  
+}
+  @media (max-width: 920px) {
+    
+  }
+@media (max-width:425px){
+  .card {
+      margin: 10px auto;
+      width: 340px !important;
+  }
+  .btn-primary{
+      margin-top: -15px;
+  }
+
+@media (max-width: 325px){
+  .card {
+      margin: 10px auto;
+      width: 280px !important;
+      /* height: auto !important; */
+  }
+  
+}}
