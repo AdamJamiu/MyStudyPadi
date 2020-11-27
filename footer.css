@@ -154,7 +154,6 @@ footer {
 /* MEDIA QUERIES */
 @media (min-width:1001px){
   footer{
-    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
