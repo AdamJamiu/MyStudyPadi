@@ -3,7 +3,7 @@
 
 body {
     height: 100vh;
-    /* overflow: scroll; */
+    overflow: hidden;
 }
 
 /* About-Us */
