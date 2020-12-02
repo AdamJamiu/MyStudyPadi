@@ -1,5 +1,6 @@
 body {
-    height: 100vh;
+    max-height: 100vh;
+    min-height: 80vh;
     /* overflow: scroll; */
 }
 
@@ -26,14 +27,14 @@ p {
     font-weight: 700;
     color: #263238;
     /* padding: 0; */
-    margin: 140px 0 0 0;
+    margin: 120px 0 0 0;
 }
 
 /* contact details */
 
 .contact-details{
     padding: 0px 10px;
-    margin-top: -10px;
+    margin-top: -20px;
 }
 
 .card-body{
@@ -148,8 +149,18 @@ p {
     margin-left: 15px;
 }
 /* Media queries */
+@media (min-width:1280){
+    /* body{
+        height: ;
+    } */
+}
 @media (min-width:1001px){
-    
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
 }
 @media (max-width: 1024px) {
     .card{
