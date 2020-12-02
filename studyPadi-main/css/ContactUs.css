@@ -183,7 +183,24 @@ p {
   }
 
 @media (max-width: 325px){
+    .technical-problem .btn-primary {
+        padding: 10px 30px;
+    }
     
-  
+    .technical-problem a, .questions a{
+        font-size: 12px;
+    }
+
+    .social-links .btn {
+        display: flex;
+        padding: 15px 60px;
+        margin-left: 10px;
+    }
+    
+    .social-links .btn a {
+        font-size: 14px;
+        /* width: 32px; */
+        padding: 20px;
+    }
   
 }}
