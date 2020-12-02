@@ -10,12 +10,13 @@ body {
 main{
     z-index: 0;
 }
-.contact-us h1{
+.about-us h1{
     text-align: center;
     font-family: Montserrat;
     font-size: 30px;
     font-weight: 700;
     color: #263238;
+    margin: 140px 0 0 0;
 }
 
 /* about us details */
@@ -25,6 +26,10 @@ main{
 }
 .card{
     border: 1px solid #f9f9f9;
+    margin: 15px auto;
+    max-width: 1200px;
+    min-width: 300px;
+    height: 300px;
 }
 
 .card-body{
@@ -161,23 +166,23 @@ span{
     
   }
 @media (max-width:425px){
-    main{
+    /* main{
         margin-top: -80px;
-    }
-  .card {
+    } */
+  /* .card {
       margin: 10px auto;
       width: 340px !important;
-  }
+  } */
   .btn-primary{
       margin-top: -15px;
   }
 
 @media (max-width: 325px){
-  .card {
+  /* .card {
       margin: 10px auto;
-      width: 280px !important;
+      width: 280px !important; */
       /* height: auto !important; */
-  }
+  /* } */
   
 }}
 
