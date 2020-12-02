@@ -1,0 +1,206 @@
+body {
+    height: 100vh;
+    /* overflow: scroll; */
+}
+
+/* Contact-Us */
+main{
+    z-index: 0;
+}
+
+p {
+    line-height: 32px;
+}
+
+.card {
+    margin: 15px auto;
+    max-width: 1200px;
+    min-width: 260px;
+    height: 300px;
+}
+
+.contact-us h1{
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    color: #263238;
+    /* padding: 0; */
+    margin: 140px 0 0 0;
+}
+
+/* contact details */
+
+.contact-details{
+    padding: 0px 10px;
+    margin-top: -10px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #102A67;
+    padding-top: 13px;
+}
+
+.technical-problem .card-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #102A67;
+}
+
+.technical-problem .btn-primary {
+    background-color: #255ADC;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.technical-problem a{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.questions .card-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #102A67;
+    margin-bottom: 36px;
+}
+
+.questions .btn-primary {
+    background-color: #255ADC;
+    border-radius: 10px;
+    padding: 10px 30px;
+
+}
+
+.questions a{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.social-links .card-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #102A67;
+    margin-bottom: 36px;
+}
+
+.social-links .btn-primary {
+    background-color: #255ADC;
+    border-radius: 10px;
+    padding: 10px 30px;
+
+}
+
+.social-links .btn {
+    display: flex;
+    padding: 15px 60px;
+    margin-left: 10px;
+}
+
+.social-links .btn a {
+    text-decoration: none;
+    font-size: 20px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    padding: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #255ADC;
+    color: #ffffff;
+    transition: all 250ms ease-in-out;
+}
+
+.social-links .btn a:first-child {
+    margin-right: 15px;
+}
+
+.social-links .btn a:last-child {
+    margin-left: 15px;
+}
+/* Media queries */
+@media (min-width:1001px){
+    
+}
+@media (max-width: 1024px) {
+    .card{
+        margin: 15px 25px;
+        height: 300px;
+    }
+}
+  @media (max-width: 920px) {
+    .card{
+        margin: 15px 15px;
+        /* height: 300px; */
+    }
+  }
+@media (max-width:425px){
+    main{
+        margin-top: 0px;
+    }
+    .card {
+        margin: 15px auto;
+        height: 350px;
+    }
+    .btn-primary{
+        margin-top: -15px;
+    }
+  
+    .contact-details{
+      margin: -15px 0;
+  }
+  .btn-primary{
+      margin-top: 0px;
+  }
+
+@media (max-width: 325px){
+    .technical-problem .btn-primary {
+        padding: 10px 30px;
+    }
+    
+    .technical-problem a, .questions a{
+        font-size: 12px;
+    }
+
+    .social-links .btn {
+        display: flex;
+        padding: 15px 60px;
+        margin-left: 10px;
+    }
+    
+    .social-links .btn a {
+        font-size: 14px;
+        /* width: 32px; */
+        padding: 20px;
+    }
+  
+}}

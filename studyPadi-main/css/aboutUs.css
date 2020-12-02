@@ -1,0 +1,197 @@
+/* @import url("/header.css");
+@import url("/footer.css"); */
+
+body {
+    height: 100vh;
+    /* overflow: hidden; */
+}
+
+/* About-Us */
+main{
+    z-index: 0;
+}
+.about-us h1{
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    color: #263238;
+    margin: 140px 0 0 0;
+}
+
+/* about us details */
+
+.about-us-details{
+    padding: 0px 10px;
+}
+.card{
+    border: 1px solid #f9f9f9;
+    margin: 15px auto;
+    max-width: 1200px;
+    min-width: 260px;
+    height: 400px;
+}
+
+.card-body{
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card-title{
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #102A67;
+    color: #ffffff;
+}
+
+.technical-problem .card-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #102A67;
+}
+
+.technical-problem .btn-primary {
+    background-color: #255ADC;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.technical-problem a{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.questions .card-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #102A67;
+}
+
+.questions .btn-primary {
+    background-color: #255ADC;
+    border-radius: 10px;
+    padding: 10px 30px;
+
+}
+
+.questions a{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.social-links .card-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #102A67;
+    margin-bottom: 36px;
+}
+
+.social-links .btn-primary {
+    background-color: #255ADC;
+    border-radius: 10px;
+    padding: 10px 30px;
+
+}
+
+.social-links .btn {
+    display: flex;
+    padding: 15px 60px;
+    margin-left: 10px;
+}
+
+.social-links .btn a {
+    text-decoration: none;
+    font-size: 20px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    padding: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #255ADC;
+    color: #ffffff;
+    transition: all 250ms ease-in-out;
+}
+
+.social-links .btn a:first-child {
+    margin-right: 15px;
+}
+
+.social-links .btn a:last-child {
+    margin-left: 15px;
+}
+
+/* Media queries */
+@media (min-width:1001px){
+    
+}
+@media (max-width: 1024px) {
+    .card{
+        margin: 15px 25px;
+        height: 300px;
+    }
+  
+}
+  @media (max-width: 920px) {
+    .card{
+        margin: 15px 15px;
+        height: 300px;
+    }
+  }
+@media (max-width:425px){
+    /* main{
+        margin-top: -80px;
+    } */
+  .card {
+      margin: 15px auto;
+      height: 350px;
+  }
+  .btn-primary{
+      margin-top: -15px;
+  }
+
+  .about-us-details{
+    margin: -15px 0;
+}
+
+@media (max-width: 325px){
+  /* .card {
+      margin: 10px auto;
+      width: 280px !important; */
+      /* height: auto !important; */
+  /* } */
+  
+}}
+
