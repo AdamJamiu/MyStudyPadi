@@ -15,7 +15,7 @@ p {
 .card {
     margin: 15px auto;
     max-width: 1200px;
-    min-width: 300px;
+    min-width: 260px;
     height: 300px;
 }
 
@@ -32,8 +32,15 @@ p {
 /* contact details */
 
 .contact-details{
-    /* padding: 0px 10px; */
+    padding: 0px 10px;
     margin-top: -10px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-title{
@@ -51,7 +58,7 @@ p {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 24px;
     text-align: center;
     color: #102A67;
 }
@@ -74,7 +81,7 @@ p {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 24px;
     text-align: center;
     color: #102A67;
     margin-bottom: 36px;
@@ -99,7 +106,7 @@ p {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 24px;
     text-align: center;
     color: #102A67;
     margin-bottom: 36px;
@@ -144,33 +151,39 @@ p {
 @media (min-width:1001px){
     
 }
-@media (max-width: 1000px) {
-    /* .card{
-        width: 800px;
-    } */
-   
-  
+@media (max-width: 1024px) {
+    .card{
+        margin: 15px 25px;
+        height: 300px;
+    }
 }
   @media (max-width: 920px) {
-    
+    .card{
+        margin: 15px 15px;
+        /* height: 300px; */
+    }
   }
 @media (max-width:425px){
     main{
         margin-top: 0px;
     }
-  /* .card {
-      margin: 10px auto;
-      width: 340px !important;
-  } */
+    .card {
+        margin: 15px auto;
+        height: 350px;
+    }
+    .btn-primary{
+        margin-top: -15px;
+    }
+  
+    .contact-details{
+      margin: -15px 0;
+  }
   .btn-primary{
-      /* margin-top: -15px; */
+      margin-top: 0px;
   }
 
 @media (max-width: 325px){
-  /* .card {
-      margin: 10px auto;
-      width: 280px !important; */
-      /* height: auto !important; */
-  /* } */
+    
+  
   
 }}

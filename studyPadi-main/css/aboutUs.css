@@ -28,7 +28,7 @@ main{
     border: 1px solid #f9f9f9;
     margin: 15px auto;
     max-width: 1200px;
-    min-width: 280px;
+    min-width: 260px;
     height: 400px;
 }
 
@@ -157,8 +157,11 @@ span{
 @media (min-width:1001px){
     
 }
-@media (max-width: 1000px) {
-   
+@media (max-width: 1024px) {
+    .card{
+        margin: 15px 25px;
+        height: 300px;
+    }
   
 }
   @media (max-width: 920px) {
