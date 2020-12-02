@@ -1,14 +1,11 @@
 body {
-    height: 90vh;
-    /* overflow-y: ; */
-    display: flex;
-    flex-direction: column;
+    height: 80vh;
+    /* overflow: scroll; */
 }
 
 /* Contact-Us */
 main{
     z-index: 0;
-    flex: 1 0 auto;
 }
 
 p {
@@ -158,11 +155,10 @@ p {
 }
 @media (min-width:1001px){
     footer {
-        /* position: fixed;
+        /* position: fixed; */
         bottom: 0;
         left: 0;
-        right: 0; */
-        flex-shrink: 0;
+        right: 0;
     }
 }
 @media (max-width: 1024px) {

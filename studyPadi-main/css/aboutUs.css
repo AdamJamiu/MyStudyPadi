@@ -2,16 +2,13 @@
 @import url("/footer.css"); */
 
 body {
-    height: 90vh;
-    /* overflow-y: hidden; */
-    display: flex;
-    flex-direction: column;
+    height: 80vh;
+    /* overflow: hidden; */
 }
 
 /* About-Us */
 main{
     z-index: 0;
-    flex: 1 0 auto;
 }
 .about-us h1{
     text-align: center;
@@ -160,11 +157,10 @@ span{
 /* Media queries */
 @media (min-width:1001px){
     footer {
-        /* position: fixed;
+        /* position: fixed; */
         bottom: 0;
         left: 0;
-        right: 0; */
-        flex-shrink: 0;
+        right: 0;
     }
 }
 @media (max-width: 1024px) {
