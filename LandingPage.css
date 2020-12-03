@@ -9,7 +9,16 @@ padding: 0;
   font-family: 'Montserrat', sans-serif;
   }
 
+<<<<<<< Updated upstream
 
+=======
+.container
+{
+  margin-top: 100px;
+  z-index: 0;
+
+  }
+>>>>>>> Stashed changes
 
 #home-grid1{
   margin-top: 8%;
@@ -76,7 +85,16 @@ text-align: center;
            text-align: center;
           }
 
+<<<<<<< Updated upstream
           .col- {
+=======
+
+
+
+
+
+          .col- .blog-post{
+>>>>>>> Stashed changes
               width:  50rem;
               margin: 5%;
           }
@@ -94,24 +112,41 @@ text-align: center;
           }
 
           .blog-post__img{
+<<<<<<< Updated upstream
               width: 280px;
               height: 16rem;
+=======
+              width: 464px;
+              height: 15rem;
+>>>>>>> Stashed changes
               position: relative;
           }
 
           .blog-post__img img{
               width: 174px;
+<<<<<<< Updated upstream
               height: 230px;
               object-fit: cover;
               display: block;
               border-radius: .8rem;
               transform: translateY( 1rem);
+=======
+              height: 14rem;
+              object-fit: cover;
+              display: block;
+              border-radius: .8rem;
+              transform: translateX(2rem);
+>>>>>>> Stashed changes
 
           }
 
 
           .blog-post__title{
+<<<<<<< Updated upstream
               font-size: 1.3rem;
+=======
+              font-size: 1rem;
+>>>>>>> Stashed changes
               margin: 1rem 0 2rem;
               text-transform: capitalize;
               color: #102A67;
@@ -122,19 +157,32 @@ text-align: center;
               margin-bottom: 3rem;
               font-size: 1rem;
               line-height: 20px;
+<<<<<<< Updated upstream
               width: 75%;
+=======
+>>>>>>> Stashed changes
 
           }
 
           .blog-post__cta{
               display: inline-block;
+<<<<<<< Updated upstream
               padding: 0.5rem 1.5rem;
+=======
+              padding: 1rem 1rem;
+>>>>>>> Stashed changes
               letter-spacing: 1px;
               text-transform: capitalize;
               font-size: 1rem;
               color: #fff;
+<<<<<<< Updated upstream
               border-radius: .6rem;
               background-color: #102ADC;
+=======
+              border-radius: .8rem;
+              background-color: #102ADC;
+              cursor: pointer;
+>>>>>>> Stashed changes
           }
 
           @media screen and (max-width: 1068px) {
@@ -158,6 +206,7 @@ text-align: center;
                   flex-direction: column;
               }
 
+<<<<<<< Updated upstream
               #Landing{
                 flex-direction: column;
               }
@@ -165,6 +214,11 @@ text-align: center;
 
               .blog-post__info{
                    margin-top: 15%;
+=======
+
+              .blog-post__info{
+
+>>>>>>> Stashed changes
                   min-width: 20rem;
                   max-width: 35rem;
 
@@ -183,7 +237,10 @@ text-align: center;
                   padding: 2.5rem;
                   width: 60%;
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
               }
 
               .blog-post__info{
@@ -193,7 +250,13 @@ text-align: center;
 
               .blog-post__img img{
 
+<<<<<<< Updated upstream
                   width: 100%;
+=======
+                  max-width: 70%;
+                  min-width: 100%;
+                  transform: translate(0, -1rem);
+>>>>>>> Stashed changes
               }
           }
 
@@ -210,6 +273,19 @@ text-align: center;
 
 
 
+<<<<<<< Updated upstream
+=======
+
+
+
+
+
+
+
+
+
+
+>>>>>>> Stashed changes
 p{
     word-wrap: break-word;
     font-size: 14px;
@@ -236,6 +312,7 @@ p{
   border-radius: 50%;
   padding: 5%;
   font-size: 40px;
+  font-weight: bold;
 }
 .bx-timer{
   background-color: #102A67;
@@ -243,11 +320,15 @@ p{
   border-radius: 50%;
   padding: 5%;
   font-size: 40px;
-}
 
+}
+.app-text{
+  color: #102A67;
+}
 .app-label{
   font-weight: bolder;
   font-size: 16px;
+  color: #102A67;
 }
 
 #row{
@@ -4765,7 +4846,6 @@ aside,
 details,
 figcaption,
 figure,
-footer,
 header,
 main,
 menu,
@@ -6321,13 +6401,12 @@ body,
 aside,
 .u-sidebar-block,
 section,
-header,
-footer {
+
+ {
   position: relative;
 }
 section > *,
 header > *,
-footer > *,
 .u-sheet > * {
   position: relative;
 }
@@ -12894,10 +12973,7 @@ section.u-image,
   z-index: auto;
   position: absolute !important;
 }
-.u-hide-header .u-header,
-.u-hide-footer .u-footer {
-  display: none;
-}
+
 .u-absolute-hcenter {
   left: 50% !important;
   transform: translateX(-50%);
@@ -17147,7 +17223,6 @@ blockquote ul:last-child,
 blockquote ol:last-child {
   margin-bottom: 0;
 }
-blockquote footer,
 blockquote small,
 blockquote .small {
   display: block;
@@ -17155,7 +17230,6 @@ blockquote .small {
   line-height: 20px;
   color: #eeeeee;
 }
-blockquote footer:before,
 blockquote small:before,
 blockquote .small:before {
   content: '\2014   \A0';
@@ -31961,10 +32035,7 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         }
         @media (max-width: 575px) {
-        h3
-        {
-        font-size: 1.5rem;
-        }
+
         }
         /*end-media rules*/
         /** publish-rules **/
@@ -32081,54 +32152,3 @@ a.u-link.u-text-hover-grey-90:hover {
         color: #ffffff;
         }
         /** alt-color-rules **/
-
-
-
-/*end-variables sitestylecss*/
-.u-header {
-  background-image: none;
-}
-
-.u-header .u-sheet-1 {
-  min-height: 80px;
-}
-
-
-
-
-.u-footer {
-  background-image: none;
-}
-
-.u-footer .u-sheet-1 {
-  min-height: 120px;
-}
-
-.u-footer .u-text-1 {
-  width: 417px;
-  margin: 49px auto;
-}
-@media (max-width: 1199px) {
-  .u-footer .u-sheet-1 {
-    min-height: 99px;
-  }
-}
-@media (max-width: 991px) {
-  .u-footer .u-sheet-1 {
-    min-height: 76px;
-  }
-}
-@media (max-width: 767px) {
-  .u-footer .u-sheet-1 {
-    min-height: 57px;
-  }
-}
-@media (max-width: 575px) {
-  .u-footer .u-sheet-1 {
-    min-height: 36px;
-  }
-
-  .u-footer .u-text-1 {
-    width: 340px;
-  }
-}
