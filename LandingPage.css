@@ -11,9 +11,7 @@ padding: 0;
 
 #home-grid1{
   margin-top: 8%;
-
-
-text-align: center;
+  text-align: center;
   }
 
 #row1{
@@ -61,7 +59,7 @@ text-align: center;
            justify-content: center;
          }
          #landing-img{
-        object-fit: cover;
+
 
          }
 
@@ -77,12 +75,11 @@ text-align: center;
         .blog-post{
 
               background-color: #fff;
-              /*box-shadow: 0 1.4rem 8rem rgba(0,0,0.2);*/
               display: flex;
               align-items: center;
               border-radius: .8rem;
               border: 1px solid #E8E9EA;
-              font-family: 'roboto';
+
           }
 
           .blog-post__img{
@@ -122,17 +119,17 @@ text-align: center;
               margin-bottom: 3rem;
               font-size: 1rem;
               line-height: 20px;
-              width: 75%;
+              width: 80%;
+              text-align: center;
 
           }
 
           .blog-post__cta{
               display: inline-block;
-              padding: 0.5rem 1.5rem;
-              padding: 1rem 1rem;
+              padding: 0.7rem 1.7rem;
               letter-spacing: 1px;
               text-transform: capitalize;
-              font-size: 1rem;
+              font-size: 0.7rem;
               color: #fff;
               border-radius: .6rem;
               background-color: #102ADC;
@@ -195,7 +192,6 @@ text-align: center;
                   width: 100%;
                   max-width: 70%;
                   min-width: 100%;
-                  transform: translate(0, -1rem);
               }
           }
 
@@ -877,7 +873,6 @@ section-1 {
         color: #43A047; }
   .fr-view span.fr-emoticon {
     font-weight: normal;
-    font-family: "Apple Color Emoji","Segoe UI Emoji","NotoColorEmoji","Segoe UI Symbol","Android Emoji","EmojiSymbols";
     display: inline;
     line-height: 0; }
     .fr-view span.fr-emoticon.fr-emoticon-img {
@@ -913,7 +908,7 @@ section-1 {
     background-clip: padding-box;
     background: #f5f5f5;
     padding: 10px;
-    font-family: "Courier New", Courier, monospace; }
+    }
   .fr-view .fr-class-transparency {
     opacity: 0.5; }
   .fr-view img {
@@ -1121,15 +1116,6 @@ span.fr-img-caption.fr-view {
       float: right;
       margin: 5px 0 5px 5px;
       max-width: calc(100% - 5px); }
-/* begin-commonstyles animate@charset "UTF-8"; */
-
-/*!
- * animate.css -https://daneden.github.io/animate.css/
- * Version - 3.7.2
- * Licensed under the MIT license - http://opensource.org/licenses/MIT
- *
- * Copyright (c) 2019 Daniel Eden
- */
 
 @-webkit-keyframes bounce {
   from,
@@ -4746,15 +4732,7 @@ span.fr-img-caption.fr-view {
     animation-iteration-count: 1 !important;
   }
 }
-/*end-commonstyles animate*//*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
-html {
-  font-family: sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-}
-body {
-  margin: 0;
-}
+
 article,
 aside,
 details,
@@ -4839,7 +4817,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace,monospace;
+
   font-size: 1em;
 }
 hr {
@@ -5482,7 +5460,7 @@ a {
   font-style: inherit !important;
   font-size: inherit !important;
   font-weight: inherit !important;
-  font-family: inherit !important;
+
   line-height: inherit !important;
   letter-spacing: inherit !important;
   text-transform: inherit !important;
@@ -16983,58 +16961,58 @@ p {
   word-break: break-all;
 }
 .u-font-arial.u-custom-font {
-  font-family: Arial, sans-serif !important;
+
 }
 .u-font-courier-new.u-custom-font {
-  font-family: 'Courier New', monospace !important;
+
 }
 .u-font-georgia.u-custom-font {
-  font-family: Georgia, serif !important;
+
 }
 .u-font-roboto.u-custom-font {
-  font-family: Roboto, sans-serif !important;
+
 }
 .u-font-open-sans.u-custom-font {
-  font-family: 'Open Sans', sans-serif !important;
+
 }
 .u-font-lato.u-custom-font {
-  font-family: Lato, sans-serif !important;
+
 }
 .u-font-montserrat.u-custom-font {
   font-family: Montserrat, sans-serif !important;
 }
 .u-font-roboto-condensed.u-custom-font {
-  font-family: 'Roboto Condensed', sans-serif !important;
+
 }
 .u-font-source-sans-pro.u-custom-font {
-  font-family: 'Source Sans Pro', sans-serif !important;
+
 }
 .u-font-oswald.u-custom-font {
-  font-family: Oswald, sans-serif !important;
+
 }
 .u-font-raleway.u-custom-font {
-  font-family: Raleway, sans-serif !important;
+
 }
 .u-font-pt-sans.u-custom-font {
-  font-family: 'PT Sans', sans-serif !important;
+
 }
 .u-font-ubuntu.u-custom-font {
-  font-family: Ubuntu, sans-serif !important;
+
 }
 .u-font-titillium-Web.u-custom-font {
-  font-family: 'Titillium Web', sans-serif !important;
+
 }
 .u-font-merriweather.u-custom-font {
-  font-family: Merriweather, serif !important;
+
 }
 .u-font-roboto-slab.u-custom-font {
-  font-family: 'Roboto Slab', serif !important;
+
 }
 .u-font-playfair-display.u-custom-font {
-  font-family: 'Playfair Display', serif !important;
+
 }
 .u-font-Lobster.u-custom-font {
-  font-family: Lobster, cursive !important;
+
 }
 .u-rectangle {
   border-radius: 0;
@@ -17810,10 +17788,7 @@ a.pswp__share--download:hover {
 .pswp__preloader--active {
   opacity: 1;
 }
-.pswp__preloader--active .pswp__preloader__icn {
-  /* We use .gif in browsers that don't support CSS animation */
-  background: url("data:image/gif;base64,R0lGODlhFAAUAPMIAIeHhz8/P1dXVycnJ8/Pz7e3t5+fn29vb////wAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFBwAIACwAAAAAFAAUAEAEUxDJSatFxtwaggWAdIyHJAhXoRYSQUhDPGx0TbmujahbXGWZWqdDAYEsp5NupLPkdDwE7oXwWVasimzWrAE1tKFHErQRK8eL8mMUlRBJVI307uoiACH5BAUHAAgALAEAAQASABIAAAROEMkpS6E4W5upMdUmEQT2feFIltMJYivbvhnZ3R0A4NMwIDodz+cL7nDEn5CH8DGZh8MtEMBEoxkqlXKVIgQCibbK9YLBYvLtHH5K0J0IACH5BAUHAAgALAEAAQASABIAAAROEMkpjaE4W5spANUmFQX2feFIltMJYivbvhnZ3d1x4BNBIDodz+cL7nDEn5CH8DGZAsFtMMBEoxkqlXKVIgIBibbK9YLBYvLtHH5K0J0IACH5BAUHAAgALAEAAQASABIAAAROEMkpAaA4W5vpOdUmGQb2feFIltMJYivbvhnZ3Z0g4FNRIDodz+cL7nDEn5CH8DGZgcCNQMBEoxkqlXKVIgYDibbK9YLBYvLtHH5K0J0IACH5BAUHAAgALAEAAQASABIAAAROEMkpz6E4W5upENUmAQD2feFIltMJYivbvhnZ3V0Q4JNhIDodz+cL7nDEn5CH8DGZg8GtUMBEoxkqlXKVIggEibbK9YLBYvLtHH5K0J0IACH5BAUHAAgALAEAAQASABIAAAROEMkphaA4W5tpCNUmHQf2feFIltMJYivbvhnZ3d0w4BMAIDodz+cL7nDEn5CH8DGZBMLNYMBEoxkqlXKVIgoFibbK9YLBYvLtHH5K0J0IACH5BAUHAAgALAEAAQASABIAAAROEMkpQ6A4W5vpGNUmCQL2feFIltMJYivbvhnZ3R1B4NNxIDodz+cL7nDEn5CH8DGZhcINAMBEoxkqlXKVIgwGibbK9YLBYvLtHH5K0J0IACH5BAUHAAcALAEAAQASABIAAANCeLo6wzA6FxkhbaoQ4L3ZxnXLh0EjWZ4RV71VUcCLIByyTNt2PsO8m452sBGJBsNxkUwuD03lAQBASqnUJ7aq5UYSADs=") 0 0 no-repeat;
-}
+
 .pswp--css_animation .pswp__preloader--active {
   opacity: 1;
 }
@@ -19612,9 +19587,9 @@ a.u-button-style.u-border-20 {
 .u-radius-50 > .u-container-layout {
   border-radius: 50px !important;
 }
-/*begin-variables font-family*/
+
 .u-body {
-  font-family: 'Open Sans',sans-serif;
+
 }
 h1,
 h2,
@@ -19622,7 +19597,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Roboto,sans-serif;
+
 }
 /*end-variables font-family*/
 /*begin-variables color*/
@@ -19639,16 +19614,8 @@ h6 {
   color: #111111;
   background-color: #ffffff;
 }
-/*end-variables color*/
-/*begin-variables font*/
-.u-custom-font.u-text-font {
-  font-family: 'Open Sans',sans-serif !important;
-}
-.u-custom-font.u-heading-font {
-  font-family: Roboto,sans-serif !important;
-}
-/*end-variables font*/
-/*begin-variables colors*/
+
+
 .u-none.u-button-style,
 .u-none.u-button-style:hover,
 .u-none.u-button-style:focus,
