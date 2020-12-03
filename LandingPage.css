@@ -8,16 +8,6 @@ padding: 0;
   font-family: 'Montserrat', sans-serif;
   }
 
-<<<<<<< Updated upstream
-
-=======
-.container
-{
-  margin-top: 100px;
-  z-index: 0;
-
-  }
->>>>>>> Stashed changes
 
 #home-grid1{
   margin-top: 8%;
@@ -84,22 +74,7 @@ text-align: center;
            text-align: center;
           }
 
-<<<<<<< Updated upstream
-          .col- {
-=======
-
-
-
-
-
-          .col- .blog-post{
->>>>>>> Stashed changes
-              width:  50rem;
-              margin: 5%;
-          }
-
-
-          .blog-post{
+        .blog-post{
 
               background-color: #fff;
               /*box-shadow: 0 1.4rem 8rem rgba(0,0,0.2);*/
@@ -111,41 +86,32 @@ text-align: center;
           }
 
           .blog-post__img{
-<<<<<<< Updated upstream
+
               width: 280px;
               height: 16rem;
-=======
               width: 464px;
               height: 15rem;
->>>>>>> Stashed changes
               position: relative;
           }
 
           .blog-post__img img{
               width: 174px;
-<<<<<<< Updated upstream
               height: 230px;
               object-fit: cover;
               display: block;
               border-radius: .8rem;
               transform: translateY( 1rem);
-=======
               height: 14rem;
               object-fit: cover;
               display: block;
               border-radius: .8rem;
               transform: translateX(2rem);
->>>>>>> Stashed changes
-
           }
 
 
           .blog-post__title{
-<<<<<<< Updated upstream
               font-size: 1.3rem;
-=======
               font-size: 1rem;
->>>>>>> Stashed changes
               margin: 1rem 0 2rem;
               text-transform: capitalize;
               color: #102A67;
@@ -156,32 +122,24 @@ text-align: center;
               margin-bottom: 3rem;
               font-size: 1rem;
               line-height: 20px;
-<<<<<<< Updated upstream
               width: 75%;
-=======
->>>>>>> Stashed changes
 
           }
 
           .blog-post__cta{
               display: inline-block;
-<<<<<<< Updated upstream
               padding: 0.5rem 1.5rem;
-=======
               padding: 1rem 1rem;
->>>>>>> Stashed changes
               letter-spacing: 1px;
               text-transform: capitalize;
               font-size: 1rem;
               color: #fff;
-<<<<<<< Updated upstream
               border-radius: .6rem;
               background-color: #102ADC;
-=======
               border-radius: .8rem;
               background-color: #102ADC;
               cursor: pointer;
->>>>>>> Stashed changes
+
           }
 
           @media screen and (max-width: 1068px) {
@@ -198,30 +156,21 @@ text-align: center;
           }
 
 
-
           @media screen and (max-width: 868px) {
               .blog-post{
                   max-width: 70rem;
                   flex-direction: column;
               }
 
-<<<<<<< Updated upstream
+
               #Landing{
                 flex-direction: column;
               }
 
 
               .blog-post__info{
-                   margin-top: 15%;
-=======
-
-              .blog-post__info{
-
->>>>>>> Stashed changes
                   min-width: 20rem;
                   max-width: 35rem;
-
-
               }
 
               .col- .blog-post{
@@ -235,11 +184,6 @@ text-align: center;
               .blog-post{
                   padding: 2.5rem;
                   width: 60%;
-
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
               }
 
               .blog-post__info{
@@ -248,14 +192,10 @@ text-align: center;
 
 
               .blog-post__img img{
-
-<<<<<<< Updated upstream
                   width: 100%;
-=======
                   max-width: 70%;
                   min-width: 100%;
                   transform: translate(0, -1rem);
->>>>>>> Stashed changes
               }
           }
 
@@ -268,23 +208,6 @@ text-align: center;
           }
 
 
-
-
-
-
-<<<<<<< Updated upstream
-=======
-
-
-
-
-
-
-
-
-
-
->>>>>>> Stashed changes
 p{
     word-wrap: break-word;
     font-size: 14px;
