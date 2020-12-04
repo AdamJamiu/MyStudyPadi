@@ -257,9 +257,9 @@ body{
               }
 
 
-              .blog-post__img{
-                  min-width: 20%;
-                  max-width: 50%;
+              .blog-post__img img{
+
+                  max-width: 100%;
 
               }
 
@@ -288,6 +288,16 @@ body{
 
           }
 
+          @media screen and (max-width: 575px) {
+            .label-txt{
+              font-size: 10px;
+            }
+
+            .app-label{
+              font-size: 8px;
+            }
+
+          }
 
           @media screen and (max-width: 560px) {
             #home-grid2{
