@@ -39,10 +39,12 @@ padding: 0;
   opacity: 0.5;
 }
 
-
 .features-title{
-  font-weight: 700;
+  padding-left: 6.5rem;
+  color:black;
+  font-weight: 600;
 }
+
 
 .col-sm {
   width: 10rem;
@@ -129,7 +131,7 @@ padding: 0;
 
 
           .blog-post__info{
-            padding-bottom: 2%:
+            padding-bottom: 2%;
           }
 
         .blog-post{
@@ -183,14 +185,13 @@ padding: 0;
           }
 
           .blog-post__cta{
-              display: inline-block;
+
               padding: 0.7rem 1.7rem;
               letter-spacing: 1px;
               text-transform: capitalize;
               font-size: 0.7rem;
               color: #fff;
               border-radius: .6rem;
-              background-color: #102ADC;
               background-color: #102ADC;
               cursor: pointer;
 
@@ -347,6 +348,7 @@ p {
     width: 20rem;
     background-color: #fff;
     height: 17rem;
+    margin-left: 4%;
 }
 
 .testimony-text{
