@@ -1,10 +1,14 @@
 *{
   font-family: 'Montserrat', sans-serif;
 }
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
 body{
   margin: 0;
 padding: 0;
-  overflow-x: hidden;
+width: 100vw;
   font-family: 'Montserrat', sans-serif;
   }
 .Landing-header{
