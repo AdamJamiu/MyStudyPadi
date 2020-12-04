@@ -2297,6 +2297,16 @@ input, select, textarea {
 		.image img {
 			display: block;
 		}
+		
+		.img-tile-box {
+			width: 840px;
+			height: 340px;
+		}
+		.img-tile-box .img-tile {
+			width: 300px;
+			height: 340px;
+			object-fit: cover;
+		}
 
 		.image.left, .image.right {
 			max-width: 40%;
