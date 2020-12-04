@@ -87,3 +87,47 @@ a{
 .article-box:hover {
     text-decoration: none;
 }
+
+/* Media queries */
+@media (min-width:1280){
+    /* body{
+        height: ;
+    } */
+}
+@media (min-width:1001px){
+    footer {
+        /* position: fixed; */
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}
+@media (max-width: 1024px) {
+    
+}
+  @media (max-width: 920px) {
+    
+  }
+@media (max-width:425px){
+    img{
+        width: 250px;
+        height: 100%;
+        /* display: block; */
+        object-fit: cover;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+    
+    .img-test{
+        width: 100%;
+        height: 200px;
+    }
+
+    /* .contents {
+        width: 180px;
+    } */
+
+@media (max-width: 325px){
+    
+  
+}}
