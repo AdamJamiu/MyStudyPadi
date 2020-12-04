@@ -135,7 +135,7 @@ body{
 
 
           .blog-post__info{
-            padding-bottom: 2%;
+            padding-bottom: 1rem;
           }
 
         .blog-post{
@@ -145,7 +145,7 @@ body{
               align-items: center;
               border-radius: .8rem;
               border: 1px solid #E8E9EA;
-              text-align: center;
+
           }
 
           .blog-post__img{
@@ -163,7 +163,6 @@ body{
               object-fit: cover;
               display: block;
               border-radius: .8rem;
-
               height: 14rem;
               object-fit: cover;
               display: block;
@@ -179,6 +178,7 @@ body{
               text-transform: capitalize;
               color: #102A67;
               font-weight: 900;
+              text-align: left;
           }
 
           .blog-post__text{
@@ -186,7 +186,7 @@ body{
               font-size: 1rem;
               line-height: 20px;
               width: 80%;
-              text-align: center;
+              text-align: left;
 
           }
 
@@ -200,8 +200,10 @@ body{
               border-radius: .6rem;
               background-color: #102ADC;
               cursor: pointer;
-              text-align: left;
+              text-align: center;
           }
+
+        
 
           @media screen and (max-width: 1068px) {
 
@@ -212,7 +214,7 @@ body{
 
               }
 
-            }
+
 
 
             @media screen and (max-width: 978px) {
@@ -225,15 +227,10 @@ body{
               }
 
           @media screen and (max-width: 868px) {
-              .blog-post{
-                  margin: 5%;
-              }
-
-
 
 
               .blog-post__img img{
-                width: 10rem;
+                max-width: 8rem;
               }
 
               .blog-post__info{
@@ -242,8 +239,7 @@ body{
               }
 
               .col- .blog-post{
-                  min-width: 20rem;
-                  max-width: 30rem;
+
               }
 
           }
@@ -264,15 +260,46 @@ body{
 
 
               .blog-post__img img{
-                  width: 12rem;
-              }
 
-              .blog-post__img img{
-                  width: 12rem;
+                  max-width: 100%;
 
               }
+
           }
 
+          @media screen and (max-width: 660px) {
+            .blog-post{
+              flex-direction: column;
+
+            }
+
+            .blog-post__img img{
+              transform: translateX(7rem);
+
+
+            }
+            .blog-post__info{
+                text-align: center;
+                padding-left: 3rem;
+            }
+
+            .col-md .blog-post{
+              width: 20rem;
+              margin: 7rem;
+            }
+
+          }
+
+          @media screen and (max-width: 575px) {
+            .label-txt{
+              font-size: 10px;
+            }
+
+            .app-label{
+              font-size: 8px;
+            }
+
+          }
 
           @media screen and (max-width: 560px) {
             #home-grid2{
