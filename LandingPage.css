@@ -11,20 +11,23 @@ padding: 0;
   color: #102A67;
   font-weight:800;
   letter-spacing: 1px;
+  text-align: left;
 }
+
 .blog-post__cta a:hover{
   color: white;
 }
 
 #home-grid1{
   margin-top: 8%;
-  text-align: center;
+  text-align: left;
   }
 
 
 .landing-info{
   word-spacing: 2px;
-  font-weight: 600;
+  font-weight: 400;
+  text-align: left;
 
 }
 
@@ -32,66 +35,103 @@ padding: 0;
   cursor: pointer;
 }
 
+.app-btn:hover{
+  opacity: 0.5;
+}
+
 
 .features-title{
   font-weight: 700;
 }
+
+.col-sm {
+  width: 10rem;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  margin-left: 6%;
+  margin-right: 5%;
+
+
+}
+
+#features{
+
+}
+
 #row1{
+  width: 10rem;
   background: #FFFFFF;
   box-shadow: 0px 0px 7px 5px rgba(241, 241, 241, 0.5);
   border-radius: 10px;
-   padding: 5%;
+   padding: 2%;
    text-align: center;
+   height: 12rem;
+
   }
 
    #row2{
      background: #FFFFFF;
      box-shadow: 0px 0px 7px 5px rgba(241, 241, 241, 0.5);
      border-radius: 10px;
-      padding: 5%;
+      padding: 2%;
+      width: 10rem;
       text-align: center;
+      height: 13rem;
      }
      #row3{
+       height: 13rem;
        background: #FFFFFF;
        box-shadow: 0px 0px 7px 5px rgba(241, 241, 241, 0.5);
        border-radius: 10px;
-        padding: 5%;
+        padding: 2%;
         text-align: center;
+        width: 10rem;
        }
        #row4{
+         height: 13rem;
+         width: 8rem;
          background: #FFFFFF;
          box-shadow: 0px 0px 7px 5px rgba(241, 241, 241, 0.5);
-         border-radius: 10px;
-         padding: 5%;
+         border-radius: 20px;
+         padding: 2%;
          text-align: center;
 
          }
          #row5{
+           height: 13rem;
+           width: 8rem;
            background: #FFFFFF;
            box-shadow: 0px 0px 7px 5px rgba(241, 241, 241, 0.5);
            border-radius: 10px;
-            padding: 5%;
+            padding: 2%;
             text-align: center;
          }
 
 
+         #row6{
+           height: 13rem;
+           width: 8rem;
+           background: #FFFFFF;
+           box-shadow: 0px 0px 7px 5px rgba(241, 241, 241, 0.5);
+           border-radius: 10px;
+            padding: 2%;
+            text-align: center;
+           }
+
+.app-label p{
+
+}
 
          #Landing{
            padding: 5rem;
            justify-content: center;
          }
 
-        #row6{
-          background: #FFFFFF;
-          box-shadow: 0px 0px 7px 5px rgba(241, 241, 241, 0.5);
-          border-radius: 10px;
-           padding: 5%;
-           text-align: center;
-          }
 
           .blog-post__info{
             padding-bottom: 2%:
           }
+
         .blog-post{
               width: 38rem;
               background-color: #fff;
@@ -159,14 +199,9 @@ padding: 0;
           @media screen and (max-width: 1068px) {
               .blog-post{
 
-
-
               }
 
-              .blog-post__img{
-
-              }
-          }
+            }
 
 
           @media screen and (max-width: 868px) {
@@ -230,28 +265,30 @@ p {
     font-size: 14px;
 }
 
-.bxs-time{
+.bx-time{
   background-color: #102A67;
   color: white;
   border-radius: 50%;
   padding: 5%;
   font-size: 40px;
+  margin-bottom: 1.5rem;
 }
-.bxs-group{
+.bx-group{
   background-color: #102A67;
   color: white;
   border-radius: 50%;
   padding: 5%;
   font-size: 40px;
+  margin-bottom: 1.5rem;
 }
 
-.bxs-bell-off{
+.bx-bell-off{
   background-color: #102A67;
   color: white;
   border-radius: 50%;
   padding: 5%;
   font-size: 40px;
-  font-weight: bold;
+  margin-bottom: 1.5rem;
 }
 .bx-timer{
   background-color: #102A67;
@@ -259,9 +296,20 @@ p {
   border-radius: 50%;
   padding: 5%;
   font-size: 40px;
+  margin-bottom: 1.5rem;
 
 }
-.app-text{
+
+.bx-share{
+  background-color: #102A67;
+  color: white;
+  border-radius: 50%;
+  padding: 5%;
+  font-size: 40px;
+  margin-bottom: 1.5rem;
+}
+.label-txt{
+  width: 100%;
   color: #102A67;
 }
 .app-label{
