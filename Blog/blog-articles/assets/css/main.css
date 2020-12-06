@@ -2354,6 +2354,10 @@ input, select, textarea {
 				.image.featured {
 					margin: 0 0 1.5em 0;
 				}
+				.img-box {
+					width: 100%;
+					height: 240px;
+				}
 
 			}
 
