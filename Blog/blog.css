@@ -43,6 +43,8 @@ img{
     height: 240px;
 }
 
+
+
 /* .img{
     display: block;
     box-sizing: border-box;
@@ -101,14 +103,36 @@ a{
         left: 0;
         right: 0;
     }
+    
 }
 @media (max-width: 1024px) {
     
 }
+@media (min-width: 992px) and (max-width:1199px){
+    .pl-2, .px-2 {
+        padding-left: 3.0rem!important;
+        margin-top: 15px;
+    }
+
+    button{
+        margin-left: 35px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:991px){
+    .blog-articles .row article{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        /* background-color: ; */
+    }
+}
   @media (max-width: 920px) {
     
   }
-@media (max-width:425px){
+@media (max-width:576px){
     img{
         width: 250px;
         height: 100%;
