@@ -2298,14 +2298,15 @@ input, select, textarea {
 			display: block;
 		}
 		
-		.img-tile-box {
-			width: 840px;
+		.img-box {
+			width: 100%;
 			height: 340px;
 		}
-		.img-tile-box .img-tile {
+		.img-box .img-tile {
 			width: 300px;
-			height: 340px;
+			height: 100%;
 			object-fit: cover;
+			box-sizing: border-box;
 		}
 
 		.image.left, .image.right {
