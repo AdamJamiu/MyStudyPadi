@@ -65,6 +65,16 @@ img{
     margin-top: 15px;
 }
 
+.latest1 {
+    margin: 0 0 0 100px;
+}
+
+.article-box .article-tile {
+    max-width: 500px;
+    border: 1px solid #E8E9EA; 
+    border-radius: 15px;
+}
+
 .btn{
     font-family: Montserrat;
     font-size: 16px;

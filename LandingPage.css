@@ -334,14 +334,6 @@ button{
   margin-bottom: 5px;
 }
 
-a{
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
-  color: #255adc;
-}
 .article-box:hover {
   text-decoration: none;
 }
