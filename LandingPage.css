@@ -641,7 +641,10 @@ button{
   #row6{
     max-width: 300px;
     min-width: 50px;
-    }
+  }
+  #testimony-grid{
+    max-width: 350px;
+ }
 
 
 }
@@ -663,6 +666,9 @@ button{
     border: 1px solid #E8E9EA; 
     border-radius: 15px;
   } */
+  #testimony-grid{
+    max-width: 300px;
+ }
 }
 
 @media (max-width: 326px) {
@@ -707,5 +713,8 @@ button{
   /* .article-tile {
     width: 250px;
   } */
+  #testimony-grid{
+    max-width: 280px;
+ }
 
 }
