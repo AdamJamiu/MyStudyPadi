@@ -377,6 +377,7 @@ button{
 
 /* Media queries */
 @media (min-width:1119px) {
+  
   #home-grid2{
     margin: 2rem 0 0 -2.5rem;
     /* width: 400px; */
@@ -415,6 +416,10 @@ button{
     display: flex;
     justify-content: center;
   }
+  #home-grid1{
+    padding-top: 6rem;
+    text-align: left;
+    }
 }
 
 @media (min-width: 992px) and (max-width:1119px){
